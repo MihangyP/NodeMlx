@@ -14,4 +14,10 @@ for (let y = 0; y < HEIGHT; ++y) {
 	}
 }
 
+function hello() {
+	console.log("Hello, World\n");
+}
+
+node_mlx.mlxKeyHook(mlx_win, hello, null);
+
 node_mlx.mlxLoop(mlx_ptr);

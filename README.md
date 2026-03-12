@@ -22,3 +22,7 @@ mlx.mlxPixelPut(mlx_ptr, mlx_win, 100, 100, 0xFFFFFF);
 
 mlx.mlxLoop(mlx_ptr);
 ```
+
+Or you can just read the content of the `example.js` file.
+
+Enjoy ;)
